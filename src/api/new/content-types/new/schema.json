@@ -62,6 +62,14 @@
     },
     "newsDate": {
       "type": "date"
+    },
+    "newsContentDynamic": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.seo",
+        "shared.quote",
+        "shared.media"
+      ]
     }
   }
 }
